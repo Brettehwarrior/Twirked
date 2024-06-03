@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cool.trent.twirked.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "accessors.ExplosionAccess",
+    "accessors.TNTEntityAccess"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
